@@ -1,0 +1,81 @@
+----------------------------------------------------------------------------------------------------------------
+BUAT  RIWAYAT BAYAR: 
+----------------------------------------------------------------------------------------------------------------
+$data = [
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 1],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 2],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 3],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 4],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 5],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 6],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 7],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 8],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 9],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 10],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 11],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 12],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 13],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 14],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 15],
+['bulan' => 'Januari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 16],
+
+['bulan' => 'Februari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 1],
+['bulan' => 'Februari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 2],
+['bulan' => 'Februari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 3],
+['bulan' => 'Februari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 4],
+['bulan' => 'Februari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 5],
+['bulan' => 'Februari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 6],
+['bulan' => 'Februari', 'nominal_byr' => 500000, 'nominal_asli' => 500000, 'status_bayar' => 'Lunas', 'id_siswa' => 7],
+['bulan' => 'Februari', 'nominal_byr' => 250000, 'nominal_asli' => 500000, 'status_bayar' => 'Belum Lunas', 'id_siswa' => 8],
+['bulan' => 'Februari', 'nominal_byr' => 250000, 'nominal_asli' => 500000, 'status_bayar' => 'Belum Lunas', 'id_siswa' => 9],
+['bulan' => 'Februari', 'nominal_byr' => 250000, 'nominal_asli' => 500000, 'status_bayar' => 'Belum Lunas', 'id_siswa' => 10],
+['bulan' => 'Februari', 'nominal_byr' => 250000, 'nominal_asli' => 500000, 'status_bayar' => 'Belum Lunas', 'id_siswa' => 11],
+['bulan' => 'Februari', 'nominal_byr' => 250000, 'nominal_asli' => 500000, 'status_bayar' => 'Belum Lunas', 'id_siswa' => 12],
+['bulan' => 'Februari', 'nominal_byr' => 250000, 'nominal_asli' => 500000, 'status_bayar' => 'Belum Lunas', 'id_siswa' => 13],
+['bulan' => 'Februari', 'nominal_byr' => 250000, 'nominal_asli' => 500000, 'status_bayar' => 'Belum Lunas', 'id_siswa' => 14],
+['bulan' => 'Februari', 'nominal_byr' => 250000, 'nominal_asli' => 500000, 'status_bayar' => 'Belum Lunas', 'id_siswa' => 15],
+['bulan' => 'Februari', 'nominal_byr' => 250000, 'nominal_asli' => 500000, 'status_bayar' => 'Belum Lunas', 'id_siswa' => 16],
+];
+
+foreach ($data as $item) {App\Models\Riwayat::create($item);}
+
+----------------------------------------------------------------------------------------------------------------
+BUAT SISWA : 
+----------------------------------------------------------------------------------------------------------------
+$data = [
+['nama' => 'Abdul Rasyid Assyfa', 			'nis' => '315', 'nisn' => '001', 'jenis_kelamin' => 'L'],
+['nama' => 'Ahmad Munawir Sjadzali', 		'nis' => '317', 'nisn' => '002', 'jenis_kelamin' => 'L'],
+['nama' => 'Alvaro Julio Handy', 			'nis' => '318', 'nisn' => '003', 'jenis_kelamin' => 'L'],
+['nama' => 'Bilqis Syakira', 				'nis' => '320', 'nisn' => '004', 'jenis_kelamin' => 'L'],
+['nama' => 'Galuh Luthfia Amora', 			'nis' => '322', 'nisn' => '005', 'jenis_kelamin' => 'L'],
+['nama' => 'Gilang', 						'nis' => '001', 'nisn' => '006', 'jenis_kelamin' => 'L'],
+['nama' => 'Jacob William', 				'nis' => '325', 'nisn' => '007', 'jenis_kelamin' => 'L'],
+['nama' => 'Kalyani Alzan Zea Supriadi', 	'nis' => '326', 'nisn' => '008', 'jenis_kelamin' => 'L'],
+['nama' => 'Khalfani Alby Zehan Supriadi', 	'nis' => '329', 'nisn' => '009', 'jenis_kelamin' => 'L'],
+['nama' => 'Mikhayla Adiva Megantara', 		'nis' => '332', 'nisn' => '010', 'jenis_kelamin' => 'L'],
+['nama' => 'Muhammad Arka Al Kahfi', 		'nis' => '333', 'nisn' => '011', 'jenis_kelamin' => 'L'],
+['nama' => 'Muhammad Reyfan Sauqi', 		'nis' => '335', 'nisn' => '012', 'jenis_kelamin' => 'L'],
+['nama' => 'Raffaro Fathian Syah Mafi', 	'nis' => '338', 'nisn' => '013', 'jenis_kelamin' => 'L'],
+['nama' => 'Rizky Absalom Hutagalung', 		'nis' => '341', 'nisn' => '014', 'jenis_kelamin' => 'L'],
+['nama' => 'Sheeva Almira', 				'nis' => '342', 'nisn' => '015', 'jenis_kelamin' => 'L'],
+['nama' => 'Athaya Dhima Lolita', 			'nis' => '002', 'nisn' => '016', 'jenis_kelamin' => 'L'],
+];
+
+foreach ($data as $item) {App\Models\Siswa::create($item);}
+
+----------------------------------------------------------------------------------------------------------------
+BUAT LOGIN : 
+----------------------------------------------------------------------------------------------------------------
+$new = App\Models\User::create([
+'email'=>'mraksarafi@gmail.com',
+'name' => 'Muhammad Rafi Anggaraksa',
+'password'=>'pohon123',
+'role' => 'admin',
+])
+
+$new = App\Models\User::create([
+'email'=>'mpandyasadhamir@gmail.com',
+'name' => 'Muhammad Dhamir Pandyasa',
+'password'=>'pohon123',
+'role' => 'karyawan',
+])
